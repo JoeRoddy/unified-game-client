@@ -9,9 +9,9 @@ export default class Home extends Component {
         <div className={styles.container}>
           <h2>VAPR</h2>
           <ul>
-              <a href="">Library</a>
-              <a href="">Store</a>
-              <a href="">Community</a>
+              <Link to="/library">Library</Link>
+              <Link to="/store">Store</Link>
+              <Link to="/community">Community</Link>
           </ul>
         </div>
       </div>
